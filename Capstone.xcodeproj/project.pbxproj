@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2976063828CCF29D0060D3C5 /* CapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976063728CCF29D0060D3C5 /* CapstoneApp.swift */; };
-		2976063A28CCF29D0060D3C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976063928CCF29D0060D3C5 /* ContentView.swift */; };
+		2976063A28CCF29D0060D3C5 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976063928CCF29D0060D3C5 /* MenuView.swift */; };
 		2976063C28CCF2A00060D3C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976063B28CCF2A00060D3C5 /* Assets.xcassets */; };
 		2976063F28CCF2A00060D3C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2976063E28CCF2A00060D3C5 /* Preview Assets.xcassets */; };
 		2976064128CCF2A00060D3C5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2976064028CCF2A00060D3C5 /* Persistence.swift */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2976063428CCF29D0060D3C5 /* Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976063728CCF29D0060D3C5 /* CapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneApp.swift; sourceTree = "<group>"; };
-		2976063928CCF29D0060D3C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2976063928CCF29D0060D3C5 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2976063B28CCF2A00060D3C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2976063E28CCF2A00060D3C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2976064028CCF2A00060D3C5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -75,6 +75,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2970336328EB750600FC5075 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		2970336428EB753800FC5075 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2970336528EBF86F00FC5075 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2976063928CCF29D0060D3C5 /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2976062B28CCF29D0060D3C5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,7 +121,9 @@
 			isa = PBXGroup;
 			children = (
 				2976063728CCF29D0060D3C5 /* CapstoneApp.swift */,
-				2976063928CCF29D0060D3C5 /* ContentView.swift */,
+				2970336528EBF86F00FC5075 /* Views */,
+				2970336428EB753800FC5075 /* Helpers */,
+				2970336328EB750600FC5075 /* DataModel */,
 				2976063B28CCF2A00060D3C5 /* Assets.xcassets */,
 				2976064028CCF2A00060D3C5 /* Persistence.swift */,
 				2976064228CCF2A00060D3C5 /* Capstone.xcdatamodeld */,
@@ -264,7 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976064128CCF2A00060D3C5 /* Persistence.swift in Sources */,
-				2976063A28CCF29D0060D3C5 /* ContentView.swift in Sources */,
+				2976063A28CCF29D0060D3C5 /* MenuView.swift in Sources */,
 				2976064428CCF2A00060D3C5 /* Capstone.xcdatamodeld in Sources */,
 				2976063828CCF29D0060D3C5 /* CapstoneApp.swift in Sources */,
 			);
